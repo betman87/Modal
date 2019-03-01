@@ -1,0 +1,43 @@
+
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:0.5;
+    left:0;
+    top:0;
+    width:100%;
+    outerHeight:100%;
+    overflow:auto;  
+    background-color:rgb(0,0,0,0.4);
+    /* background-image: url("IMG_4368.jpeg"); */
+}
+
+
+.modal-sadrzaj{
+    z-index: 2;
+    background-color:#fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid black;
+    width:480px;
+    height:240px;
+    overflow: scroll;
+}
+
+.zatvori{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.zatvori:hover{
+    color:black;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#tekst{
+text-align: center;
+}
